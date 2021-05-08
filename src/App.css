@@ -5,8 +5,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #1a1a1c;
-  color: #fff;
+  background-color: #17243a;
+  color: rgba(144, 180, 194, 0.966);
 }
 
 .coin-app {
@@ -36,16 +36,25 @@
   height: 50px;
   border-radius: 4px;
   border: none;
-  background-image: linear-gradient(
-    -225deg,
-    #ac32e4 0%,
-    #7918f2 48%,
-    #4801ff 100%
-  );
-
-  color: #e2e2e2;
+  background-image: linear-gradient(45deg, #0060a0 0%, #006db6 100%);
+  color: #000000;
 }
 
 .coin-input::placeholder {
-  color: #e2e2e2;
+  color: #000000;
+  font-size: 15px;
+}
+
+.cryptoCurrently {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(110, 255, 243, 0.747);
+  letter-spacing: 0px;
+  background-color: #1b3050;
+  margin: 10px 30rem;
+  padding: 5px 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
